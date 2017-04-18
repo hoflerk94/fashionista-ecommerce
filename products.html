@@ -1,0 +1,343 @@
+ <!DOCTYPE html>
+  <html>
+    <head>
+      <title>Fashionista: A Fashionable, Eccommerce Template</title>
+      <!--Import Google Icon Font-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+      <link href="css/fashionista.css" type="text/css" rel="stylesheet">
+
+      <link href="https://fonts.googleapis.com/css?family=Tienne:900|Titillium+Web:600" rel="stylesheet">
+
+      <script src="https://use.fontawesome.com/adf6c6cccf.js"></script>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+      <meta name="description" content="Fashionista eccommerce web template. A template page for a cart to eccomerce web theme."/>
+
+      <meta name="keywords" content="eccomerce, web template, web, template, fashion, fashionista, fashion website, fashion commerce, marketplace, amazon, nordstrom, woocommerce html, css, javascript, jquery, materialize-css, framework, web framework, bootstrap, karelle hofler, internet, web, website"/>
+    </head>
+
+    <body>
+      <!--Main Navigation-->
+      <nav>
+        <div class="nav-wrapper">
+          <a href="index.html" class="brand-logo center">Fashionista</a>
+
+          <ul id="nav-mobile" class="right hide-on-med-and-down show-on-large-only">
+            <li><a href="#login">Login</a></li>
+            <li><a href="#signup">Register</a></li>
+            <li><a href="cart.html"><i class="material-icons">shopping_cart</i></a></li>
+          </ul>
+
+          <ul class="collapsible left" data-collapsible="expandable">
+            <li>
+              <div class="collapsible-header show-on-med-and-down hide-on-large-only"><i class="material-icons">toc</i></div>
+
+              <div class="collapsible-body">
+                <a href="#login">Login</a>
+                <a href="#signup">Register</a>
+                <a href="cart.html">
+                  <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                </a>
+                <div class="divider"></div>
+                <a href="products.html">Tops</a>
+                <a href="products.html">Pants</a>
+                <a href="products.html">Dresses</a>
+                <a href="products.html">Shoes</a>
+                <a href="products.html">Outerwear</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav><!--End of .nav-wrapper-->
+      <!--Category Navigation-->
+      <nav class="cat-nav hide-on-med-and-down">
+         <div class="cat-wrapper">
+           <ul id="nav-mobile" class="left s12 m12 l12">
+            <li><a href="products.html">Tops</a></li>
+            <li><a href="products.html">Pants</a></li>
+            <li><a href="products.html">Dresses</a></li>
+            <li><a href="products.html">Shoes</a></li>
+            <a href="products.html">Outerwear</a>
+          </ul>
+        </div>
+      </nav>
+      
+      <main id="main">
+          <div class="row">
+            <div class="category-types col s12 m3 l4">
+              <h4 class="category-header">Outerwear</h4>
+              <ul>
+                <li>Coats</li>
+                <li>Boots</li>
+                <li>Accessories</li>
+              </ul>
+            </div><!--End of .category-types-->
+
+            <div class="products col s12 m9 l8">
+              <div class="row">
+                <a class="product col s6 m3 l3" href="#product-modal">
+                  <figure class="product-img">
+                    <img src="img/girl-coat-old-coat-brown-coat-158648.jpeg"/>
+                  </figure>
+
+                  <div>
+                    <h5 class="product-name">Trench Coat</h5>
+                    <h6 class="product-price">$149.99</h6>
+                  </div>
+                </a><!--End of .product .col.s3-->
+
+                <a class="product col s6 m3 l3" href="#product-modal-2">
+                  <figure class="product-img">
+                    <img src="img/boots.jpg"/>
+                  </figure>
+
+                  <div>
+                    <h5 class="product-name">High Heel Boots</h5>
+                    <h6 class="product-price">$49.99</h6>
+                  </div>
+                </a><!--End of .product .col.s3-->
+
+                </div><!--End of .row-->
+              </div><!--End of .products .col.s9-->
+            </div><!--End of .row-->
+          </main>
+
+      <footer class="page-footer">
+        <div class="footer-copyright">
+          <div class="container">
+          <h5>Fashionista Web Theme</h5>
+          © 2017. Karelle Hofler
+          </div>
+        </div>
+      </footer>
+      <!-- Modal Trigger -->
+      <!-- Modal Structure -->
+
+      <div id="product-modal" class="modal">
+        <div class="modal-content">
+        
+          <div class="row">
+            <!--<div class="cart-alert col s12">
+              <h6>Item #001 has been added to your cart.</h6>
+            </div>-->
+
+            <div class="product-display col s12 m6 l6">
+                <figure class="materialboxed product-img">
+                  <img src="img/girl-coat-old-coat-brown-coat-158648.jpeg"/>
+                </figure><!--End of product img-->
+            </div><!--End of product display-->
+
+            <div class="product-info col s12 m6 l6">
+              <div class="product-text col s12">
+                <p class="product-id">#001</p>
+                <h5 class="product-name">Trench Coat</h5>
+                <h6 class="product-price">$79.99</h6>
+              </div>
+
+              <div class="product-options col s12">
+                <form class="product-choice col s12">
+                  <div class="input-field col s12 m6 l6">
+                    <select>
+                      <option value="" disabled selected>Choose size</option>
+                      <option value="1">XXS</option>
+                      <option value="2">XS</option>
+                      <option value="3">S</option>
+                      <option value="4">M</option>
+                      <option value="5">L</option>
+                      <option value="6">XL</option>
+                      <option value="7">XXL</option>
+                    </select>
+                  </div>
+                </form>
+
+                <div class="cart-wishlist col s12">
+                   <a class="cart-button waves-effect waves-light btn"><i class="fa fa-cart-plus"></i>Add to Cart</a>
+
+                    <a class="wishlist-button waves-effect waves-light btn"><i class="fa fa-list-alt"></i>Add to Wishlist</a>
+                </div>
+              </div><!--End of .product-options-->
+
+              <div class="product-description col s12">
+                <h3 class="section-header">About</h3>
+                This is a stylish trenchcoat that is great for anytime of the day.
+              </div><!--End of .product-description-->
+
+              <section class="product-reviews col s12">
+                <h3 class="section-header">Reviews</h3>
+                <div class="row">
+                  <div class="review col s12">
+                    <h5 class="user col s12 l3">
+                      Jane Doe
+                    </h5>
+
+                    <p class="textfield col s12 l9">
+                      Very Stylish, comfortable and overall great quality!
+                    </p>
+                  </div>
+                </div><!--End of .row-->
+              </section>
+            </div><!--End of .product-info .col.s6-->
+          </div>
+
+        </div><!--end of .modal-content-->
+      </div><!--End of #product-modal-->
+
+       <div id="product-modal-2" class="modal">
+        <div class="modal-content">
+          <div class="row">
+            <!--<div class="cart-alert col s12">
+              <h6>Item #001 has been added to your cart.</h6>
+            </div>-->
+            <div class="product-display col s12 m6 l6">
+                <figure class="materialboxed product-img">
+                  <img src="img/boots.jpg"/>
+                </figure><!--End of product img-->
+            </div><!--End of product display-->
+
+            <div class="product-info col s12 m6 l6">
+              <div class="product-text col s12">
+                <p class="product-id">#002</p>
+                <h5 class="product-name">High Heel Boots</h5>
+                <h6 class="product-price">$49.99</h6>
+              </div>
+
+              <div class="product-options col s12">
+                <form class="product-choice col s12">
+                  <div class="input-field col s12 m6 l6">
+                    <select>
+                      <option value="" disabled selected>Choose size</option>
+                      <option value="1">XXS</option>
+                      <option value="2">XS</option>
+                      <option value="3">S</option>
+                      <option value="4">M</option>
+                      <option value="5">L</option>
+                      <option value="6">XL</option>
+                      <option value="7">XXL</option>
+                    </select>
+                  </div>
+                </form>
+
+                <div class="cart-wishlist col s12">
+                   <a class="cart-button waves-effect waves-light btn"><i class="fa fa-cart-plus"></i>Add to Cart</a>
+
+                    <a class="wishlist-button waves-effect waves-light btn"><i class="fa fa-list-alt"></i>Add to Wishlist</a>
+                </div>
+              </div><!--End of .product-options-->
+
+              <div class="product-description col s12">
+                <h3 class="section-header">About</h3>
+                High Heel Boots great in style and support
+              </div><!--End of .product-description-->
+
+              <section class="product-reviews col s12">
+                <h3 class="section-header">Reviews</h3>
+                <div class="row">
+                  <div class="review col s12">
+                    <h5 class="user col s12 l3">
+                      Sarah Smith
+                    </h5>
+                    <p class="textfield col s12 l9">
+                      Very soft and comfty on the inside and stylish on the outside. The perfect boot for fall and winter.
+                    </p>
+                  </div>
+                </div><!--End of .row-->
+              </section>
+            </div><!--End of .product-info .col.s6-->
+          </div>
+        </div><!--end of .modal-content-->
+      </div><!--End of #product-modal-2-->
+
+      <div id="signup" class="modal">
+        <div class="modal-content">
+          <h4>Sign Up</h4>
+          <p>Create an account to receive benefits to make your shopping experience faster and easier.</p>
+        </div><!--End of #modal1 .signup-->
+          <div class="row">
+          <!--Sign Up form-->
+            <form class="signup-form col s12 m12 l12">
+              <div class="row">
+                <div class="input-field col s12 m6 l6">
+                  <input id="first_name" type="text" class="validate">
+                  <label for="first_name">First Name</label>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="input-field col s12 m6 l6">
+                  <input id="last_name" type="text" class="validate">
+                  <label for="last_name">Last Name</label>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="input-field col s12">
+                  <input id="password" type="password" class="validate">
+                  <label for="password">Password</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12 m12 l12">
+                  <input id="email" type="email" class="validate">
+                  <label for="email">Email</label>
+                </div>
+              </div>
+            </form><!--End of Signup-form-->
+          </div>
+
+         
+        <div class="modal-footer">
+           <p>
+          <input type="checkbox" class="filled-in" id="filled-in-box" checked="checked" />
+          <label for="filled-in-box">Sign Up for Weekly Newsletter</label>
+        </p>
+        <p>By clicking "Sign Up", you agree to the Terms and Services of Fashionista.</p>
+        
+          <a href="#!" class="modal-action modal-close waves-effect waves-red btn-flat">Sign Up</a>
+        </div>
+      </div>
+
+      <div id="login" class="modal">
+        <div class="modal-content">
+        <h4>Login </h4>
+        <div class="row">
+          <!--Sign Up form-->
+            <form class="signup-form col s12 m12 l12">
+              <div class="row">
+                <div class="input-field col s12 m12 l12">
+                  <input id="email" type="email" class="validate">
+                  <label for="email">Email</label>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="input-field col s12 m12 l12">
+                  <input id="password" type="password" class="validate">
+                  <label for="password">Password</label>
+                </div>
+              </div>
+            </form><!--End of Signup-form-->
+          </div>
+        <p>
+          <input type="checkbox" class="filled-in" id="filled-in-box" checked="unchecked" />
+          <label for="filled-in-box">Remember me</label>
+        </p>
+
+        </div><!--End of #modal1 .signup-->
+
+        <div class="modal-footer">
+          <a href="#!" class="modal-action modal-close waves-effect waves-red btn-flat">Login
+          </a>
+        </div>
+      </div>
+            
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script type="text/javascript" src="js/fashionista.js"></script>
+    </body>
+  </html>
