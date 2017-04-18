@@ -1,2 +1,2 @@
 # fashionista-ecommerce
-An e-Commerce theme in HTML, CSS and Javascript and the Materialize framework.
+An e-Commerce theme in HTML, CSS and Javascript and the Materialize framework. Icons by Font Awesome
